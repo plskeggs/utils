@@ -73,7 +73,7 @@ usage: device_credentials_installer.py [-h] [--dv DV] [--ca CA] [--ca_key CA_KEY
                                        [-p PATH] [-P] [-d] [-w PASSWORD] [-t TAGS] [-T SUBTYPE] [-F FWTYPES]
                                        [--devinfo DEVINFO] [--devinfo_append] [--xonxoff] [--rtscts_off] [--dsrdtr]
                                        [--term TERM] [--rtt] [--jlink_sn JLINK_SN] [--mosh_rtt_hex MOSH_RTT_HEX]
-                                       [--coap] [--prov]
+                                       [--coap] [--bcoap] [--dcoap] [--prov]
 
 Device Credentials Installer
 
@@ -86,7 +86,9 @@ options:
   --port PORT           Specify which serial port to open, otherwise pick from list (default: None)
   --id_str ID_STR       Device ID to use instead of UUID. Will be a prefix if used with --id_imei (default: )
   --id_imei             Use IMEI for device ID instead of UUID. Add a prefix with --id_str (default: False)
-  --coap                Install the CoAP server root CA cert in addition to the AWS root CA cert
+  --coap                Install the prod CoAP server root CA cert in addition to the AWS root CA cert
+  --bcoap               Install the beta CoAP server root CA cert in addition to the AWS root CA cert
+  --dcoap               Install the dev CoAP server root CA cert in addition to the AWS root CA cert
   --prov                Install the nrf_provisioning root CA cert
   -a, --append          When saving provisioning CSV, append to it (default: False)
   -A, --all             List ports of all types, not just Nordic devices (default: False)

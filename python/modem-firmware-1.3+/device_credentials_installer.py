@@ -43,7 +43,9 @@ is_gateway = False
 verbose = False
 serial_timeout = 1
 aws_ca  = "-----BEGIN CERTIFICATE-----\nMIIDQTCCAimgAwIBAgITBmyfz5m/jAo54vB4ikPmljZbyjANBgkqhkiG9w0BAQsF\nADA5MQswCQYDVQQGEwJVUzEPMA0GA1UEChMGQW1hem9uMRkwFwYDVQQDExBBbWF6\nb24gUm9vdCBDQSAxMB4XDTE1MDUyNjAwMDAwMFoXDTM4MDExNzAwMDAwMFowOTEL\nMAkGA1UEBhMCVVMxDzANBgNVBAoTBkFtYXpvbjEZMBcGA1UEAxMQQW1hem9uIFJv\nb3QgQ0EgMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALJ4gHHKeNXj\nca9HgFB0fW7Y14h29Jlo91ghYPl0hAEvrAIthtOgQ3pOsqTQNroBvo3bSMgHFzZM\n9O6II8c+6zf1tRn4SWiw3te5djgdYZ6k/oI2peVKVuRF4fn9tBb6dNqcmzU5L/qw\nIFAGbHrQgLKm+a/sRxmPUDgH3KKHOVj4utWp+UhnMJbulHheb4mjUcAwhmahRWa6\nVOujw5H5SNz/0egwLX0tdHA114gk957EWW67c4cX8jJGKLhD+rcdqsq08p8kDi1L\n93FcXmn/6pUCyziKrlA4b9v7LWIbxcceVOF34GfID5yHI9Y/QCB/IIDEgEw+OyQm\njgSubJrIqg0CAwEAAaNCMEAwDwYDVR0TAQH/BAUwAwEB/zAOBgNVHQ8BAf8EBAMC\nAYYwHQYDVR0OBBYEFIQYzIU07LwMlJQuCFmcx7IQTgoIMA0GCSqGSIb3DQEBCwUA\nA4IBAQCY8jdaQZChGsV2USggNiMOruYou6r4lK5IpDB/G/wkjUu0yKGX9rbxenDI\nU5PMCCjjmCXPI6T53iHTfIUJrU6adTrCC2qJeHZERxhlbI1Bjjt/msv0tadQ1wUs\nN+gDS63pYaACbvXy8MWy7Vu33PqUXHeeE6V/Uq2V8viTO96LXFvKWlJbYK8U90vv\no/ufQJVtMVT8QtPHRh8jrdkPSHCa2XV4cdFyQzR1bldZwgJcJmApzyMZFo6IQ6XU\n5MsI+yMRQ+hDKXJioaldXgjUkK642M4UwtBV8ob2xJNDd2ZhwLnoQdeXeGADbkpy\nrqXRfboQnoZsG4q5WTP468SQvvG5\n-----END CERTIFICATE-----\n"
-coap_ca = "-----BEGIN CERTIFICATE-----\nMIIBjzCCATagAwIBAgIUOEakGUS/7BfSlprkly7UK43ZAwowCgYIKoZIzj0EAwIw\nFDESMBAGA1UEAwwJblJGIENsb3VkMB4XDTIzMDUyNDEyMzUzMloXDTQ4MTIzMDEy\nMzUzMlowFDESMBAGA1UEAwwJblJGIENsb3VkMFkwEwYHKoZIzj0CAQYIKoZIzj0D\nAQcDQgAEPVmJXT4TA1ljMcbPH0hxlzMDiPX73FHsdGM/6mqAwq9m2Nunr5/gTQQF\nMBUZJaQ/rUycLmrT8i+NZ0f/OzoFsKNmMGQwHQYDVR0OBBYEFGusC7QaV825v0Ci\nqEv2m1HhiScSMB8GA1UdIwQYMBaAFGusC7QaV825v0CiqEv2m1HhiScSMBIGA1Ud\nEwEB/wQIMAYBAf8CAQAwDgYDVR0PAQH/BAQDAgGGMAoGCCqGSM49BAMCA0cAMEQC\nIH/C3yf5aNFSFlm44CoP5P8L9aW/5woNrzN/kU5I+H38AiAwiHYlPclp25LgY8e2\nn7e2W/H1LXJ7S3ENDBwKUF4qyw==\n-----END CERTIFICATE-----\n"
+dev_coap_ca = "-----BEGIN CERTIFICATE-----\nMIIBmzCCAUKgAwIBAgIUOdcovsGv94HR18N97qIgq6mfyXowCgYIKoZIzj0EAwIw\nGjEYMBYGA1UEAwwPblJGIENsb3VkIC0gRGV2MB4XDTIzMDMzMTEyMTM1NVoXDTQ4\nMTIzMTEyMTM1NVowGjEYMBYGA1UEAwwPblJGIENsb3VkIC0gRGV2MFkwEwYHKoZI\nzj0CAQYIKoZIzj0DAQcDQgAEsWwBJY6XL1tD+3qs62oHPzIR+gxAd2suL38kvJWP\nrxeEJjDqUBP2+UvAMpDuChG/aQ3x5bw9enFlN1EUJaJrt6NmMGQwHQYDVR0OBBYE\nFHJV6uiRFXRDMrIejIAbDRUkF2CAMB8GA1UdIwQYMBaAFHJV6uiRFXRDMrIejIAb\nDRUkF2CAMBIGA1UdEwEB/wQIMAYBAf8CAQAwDgYDVR0PAQH/BAQDAgGGMAoGCCqG\nSM49BAMCA0cAMEQCIDJdB0q6IVTSMBJCjgrdqsazeUbkxWG019X/yJTQyd2QAiA8\nAmLG/0x09X2Qm+30MgNxOE4BiybZuwH9NF8KQVqQlg==\n-----END CERTIFICATE-----\n"
+beta_coap_ca = "-----BEGIN CERTIFICATE-----\nMIIBnzCCAUSgAwIBAgIUWfE1+Lh4L1RP15WBkwINIgLZgtIwCgYIKoZIzj0EAwIw\nGzEZMBcGA1UEAwwQblJGIENsb3VkIC0gQmV0YTAeFw0yMzA1MDgwODI4MDdaFw00\nODEyMzEwODI4MDdaMBsxGTAXBgNVBAMMEG5SRiBDbG91ZCAtIEJldGEwWTATBgcq\nhkjOPQIBBggqhkjOPQMBBwNCAARvM7cUr6xL9C992usqvq6aH+LLNbG6IWoiOYBo\nQJEHnFo0Zb6sIwBWPJUj/DhQxu73/oCF6IAcv5yDdXJBl0fBo2YwZDAdBgNVHQ4E\nFgQUt7i3/I+0fTq7gaFSKfxkV2wpiv0wHwYDVR0jBBgwFoAUt7i3/I+0fTq7gaFS\nKfxkV2wpiv0wEgYDVR0TAQH/BAgwBgEB/wIBADAOBgNVHQ8BAf8EBAMCAYYwCgYI\nKoZIzj0EAwIDSQAwRgIhAMDbNg4llzbBpmCKHu7Vv0WtyQnEwWbEr5eRhtX33O4a\nAiEA7sD3ABtaQa4df/uhnytbO5W2Qf8YfHtZLsrWmPKKR5w=\n-----END CERTIFICATE-----\n"
+prod_coap_ca = "-----BEGIN CERTIFICATE-----\nMIIBjzCCATagAwIBAgIUOEakGUS/7BfSlprkly7UK43ZAwowCgYIKoZIzj0EAwIw\nFDESMBAGA1UEAwwJblJGIENsb3VkMB4XDTIzMDUyNDEyMzUzMloXDTQ4MTIzMDEy\nMzUzMlowFDESMBAGA1UEAwwJblJGIENsb3VkMFkwEwYHKoZIzj0CAQYIKoZIzj0D\nAQcDQgAEPVmJXT4TA1ljMcbPH0hxlzMDiPX73FHsdGM/6mqAwq9m2Nunr5/gTQQF\nMBUZJaQ/rUycLmrT8i+NZ0f/OzoFsKNmMGQwHQYDVR0OBBYEFGusC7QaV825v0Ci\nqEv2m1HhiScSMB8GA1UdIwQYMBaAFGusC7QaV825v0CiqEv2m1HhiScSMBIGA1Ud\nEwEB/wQIMAYBAf8CAQAwDgYDVR0PAQH/BAQDAgGGMAoGCCqGSM49BAMCA0cAMEQC\nIH/C3yf5aNFSFlm44CoP5P8L9aW/5woNrzN/kU5I+H38AiAwiHYlPclp25LgY8e2\nn7e2W/H1LXJ7S3ENDBwKUF4qyw==\n-----END CERTIFICATE-----\n"
 prov_ca = "-----BEGIN CERTIFICATE-----\nMIIBUDCB96ADAgECAgkA/YgJ9vjCE48wCgYIKoZIzj0EAwIwIjEgMB4GA1UEAwwX\nZGV2LW5yZi1wcm92aXNpb25pbmctY2EwHhcNMjMwMTA5MTIwNDQ3WhcNMzMwMTA2\nMTIwNDQ3WjAiMSAwHgYDVQQDDBdkZXYtbnJmLXByb3Zpc2lvbmluZy1jYTBZMBMG\nByqGSM49AgEGCCqGSM49AwEHA0IABFfKcaEkRik+3dPO1yQRYQ/NzXgt6rxHr//D\nq4jDycMJx4x5VUWX65+50j9ebLGKwFlXI0uhfLrCI1ftOrrHfbujFjAUMBIGA1Ud\nEwEB/wQIMAYBAf8CAQEwCgYIKoZIzj0EAwIDSAAwRQIgVLCesd2h1XttBp6jKsx2\nnzlrvfWqkOUdOgk0Wfy93uUCIQCkE3HlEXbaV9HgALzFdIV1Vk0emb2+zpwA4VrH\nPDi0Aw==\n-----END CERTIFICATE-----\n"
 IMEI_LEN = 15
 DEV_ID_MAX_LEN = 64
@@ -116,8 +118,14 @@ def parse_args():
                         Pipe (|) delimited firmware types for FOTA of the set
                         {APP MODEM BOOT SOFTDEVICE BOOTLOADER}; enclose in double quotes
                         """, default="APP|MODEM")
+    parser.add_argument("--dcoap",
+                        help="Install the dev CoAP server root CA cert in addition to the AWS root CA cert",
+                        action='store_true', default=False)
+    parser.add_argument("--bcoap",
+                        help="Install the beta CoAP server root CA cert in addition to the AWS root CA cert",
+                        action='store_true', default=False)
     parser.add_argument("--coap",
-                        help="Install the CoAP server root CA cert in addition to the AWS root CA cert",
+                        help="Install the prod CoAP server root CA cert in addition to the AWS root CA cert",
                         action='store_true', default=False)
     parser.add_argument("--prov",
                         help="Install the nrf_provisioning root CA cert",
@@ -562,7 +570,7 @@ def main():
         print(local_style('OS detect: Linux={}, MacOS={}, Windows={}'.
                           format(is_linux, is_macos, is_windows)))
 
-    if args.coap and args.prov:
+    if (args.coap or args.dcoap or args.bcoap) and args.prov:
         print(error_style('The options --coap and --prov are mutually exclusive'))
         sys.exit(1)
 
@@ -742,7 +750,11 @@ def main():
     if is_gateway:
         modem_ca = aws_ca.replace("\n", "\\n")
     elif args.coap and not args.prov:
-        modem_ca = coap_ca + aws_ca
+        modem_ca = prod_coap_ca + aws_ca
+    elif args.dcoap and not args.prov:
+        modem_ca = dev_coap_ca + aws_ca
+    elif args.bcoap and not args.prov:
+        modem_ca = beta_coap_ca + aws_ca
     elif args.prov and not args.coap:
         modem_ca = prov_ca
     else:
